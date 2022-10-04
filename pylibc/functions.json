@@ -971,6 +971,174 @@
       "returnType": [
         "void"
       ]
+    },
+    {
+      "name": "GetMouseRay",
+      "parametersName": [
+        "mousePosition" , "camara"
+      ],
+      "parametersTypes": [
+          "Vector2" , "Camara"
+      ],
+      "returnType": [
+        "ray"
+      ]
+    },
+    {
+      "name": "GetCameraMatrix",
+      "parametersName": [
+        "camara"
+      ],
+      "parametersTypes": [
+          "Camara"
+      ],
+      "returnType": [
+        "matrix"
+      ]
+    },
+    {
+      "name": "GetCameraMatrix2D",
+      "parametersName": [
+        "camara"
+      ],
+      "parametersTypes": [
+          "Camera2D"
+      ],
+      "returnType": [
+        "matrix"
+      ]
+    },
+    {
+      "name": "GetScreenToWorld2D",
+      "parametersName": [
+        "position" , "camara"
+      ],
+      "parametersTypes": [
+          "Vector2" , "Camara"
+      ],
+      "returnType": [
+        "Vector2"
+      ]
+    },
+    {
+      "name": "GetWorldToScreenEx",
+      "parametersName": [
+        "position" , "camara" , "width" , "height"
+      ],
+      "parametersTypes": [
+          "Vector3" , "Camara" , "int" , "int"
+      ],
+      "returnType": [
+        "Vector2"
+      ]
+    },
+    {
+      "name": "GetWorldToScreen2D",
+      "parametersName": [
+        "position" , "camara"
+      ],
+      "parametersTypes": [
+          "Vector2" , "Camara2D"
+      ],
+      "returnType": [
+        "Vector2"
+      ]
+    },
+    {
+      "name": "SetTargetFPS",
+      "parametersName": [
+        "fps"
+      ],
+      "parametersTypes": [
+          "int"
+      ],
+      "returnType": [
+        "void"
+      ]
+    },
+    {
+      "name": "GetFPS",
+      "parametersName": [
+        "void"
+      ],
+      "parametersTypes": [
+          "void"
+      ],
+      "returnType": [
+        "int"
+      ]
+    },
+    {
+      "name": "GetFrameTime",
+      "parametersName": [
+        "void"
+      ],
+      "parametersTypes": [
+          "void"
+      ],
+      "returnType": [
+        "float"
+      ]
+    },
+    {
+      "name": "GetTime",
+      "parametersName": [
+        "void"
+      ],
+      "parametersTypes": [
+          "void"
+      ],
+      "returnType": [
+        "double"
+      ]
+    },
+    {
+      "name": "GetRandomValue",
+      "parametersName": [
+        "min" , "max"
+      ],
+      "parametersTypes": [
+          "int" , "int"
+      ],
+      "returnType": [
+        "int"
+      ]
+    },
+    {
+      "name": "SetRandomSeed",
+      "parametersName": [
+        "seed"
+      ],
+      "parametersTypes": [
+          "int"
+      ],
+      "returnType": [
+        "void"
+      ]
+    },
+    {
+      "name": "TakeScreenshot",
+      "parametersName": [
+        "fileName"
+      ],
+      "parametersTypes": [
+          "wchar_t *"
+      ],
+      "returnType": [
+        "void"
+      ]
+    },
+    {
+      "name": "TakeScreenshot",
+      "parametersName": [
+        "flags"
+      ],
+      "parametersTypes": [
+          "int"
+      ],
+      "returnType": [
+        "void"
+      ]
     }
   ]
 }
